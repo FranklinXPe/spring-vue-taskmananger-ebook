@@ -1,0 +1,40 @@
+/target/
+!.mvn/wrapper/maven-wrapper.jar
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+### NetBeans ###
+/nbproject/private/
+/build/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+### Application specific ###
+application-dev.properties
+src/main/resources/static/css/
+src/main/resources/static/favicon.ico
+src/main/resources/static/js/
+src/main/resources/templates/index.html
+
+
+### FrontEnd specific libraries  ###
+/front-end/node_modules/
+/front-end/dist/
+/front-end/npm-debug.log*
+/front-end/yarn-debug.log*
+/front-end/yarn-error.log*
